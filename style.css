@@ -241,9 +241,12 @@ body {
    
 }
 
+
+
 #buton:hover {
     background: #ffffff;
     color: #000;
+    
 }
 .footer {
     margin-top: 60px;
@@ -262,7 +265,7 @@ body {
 }
 
 .social-icons {
-    top: 30%;
+    top: 65%;
     transform: translate(-50%);
     position: sticky;
     z-index: 1;
@@ -284,4 +287,9 @@ body {
     padding-left: 40px;
     width: 70px;
     transition: 0.32s;
+}
+
+.btn {
+    text-align: right;
+    align-content: flex-end;
 }
