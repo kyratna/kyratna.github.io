@@ -37,6 +37,9 @@ body {
 .user-box p {
     color: #000;
 }
+
+
+
 .scroll-btn {
     bottom: 30px;
     position: absolute;
@@ -231,8 +234,9 @@ body {
     background: #fff;
 }
 
-#.cont1 {
-    padding: 30px 0px;
+#cont1 {
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
 .cont:hover {
@@ -289,7 +293,9 @@ body {
     transition: 0.32s;
 }
 
-.btn {
-    text-align: right;
-    align-content: flex-end;
+
+
+#msg {
+    padding-left: 50px;
+    padding-right: 50px;
 }
