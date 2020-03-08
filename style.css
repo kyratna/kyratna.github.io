@@ -79,8 +79,6 @@ body {
 
 #profile-img {
     height: 410px;
-  
-   
 }
 
 .nav-bar {
@@ -92,6 +90,7 @@ body {
 .navbar {
     background: #000;
 }
+
 .navbar-brand img{
     height: 40px;
 }
