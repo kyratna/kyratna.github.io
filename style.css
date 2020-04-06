@@ -91,7 +91,7 @@ body {
     background: #000;
 }
 
-.navbar-brand img{
+.navbar-logo img{
     height: 40px;
 }
 
@@ -101,7 +101,7 @@ body {
 }
 
 .navbar-toggler {
-    outline: none !important;
+    outline: none;
 }
 
 .navbar-nav {
