@@ -268,7 +268,7 @@ body {
 }
 
 .social-icons {
-    top: 65%;
+    top: 60%;
     transform: translate(-50%);
     position: sticky;
     z-index: 1;
@@ -289,7 +289,7 @@ body {
 .social-icons ul li:hover {
     padding-left: 40px;
     width: 70px;
-    transition: 0.32s;
+    transition: 0.35s;
 }
 
 
