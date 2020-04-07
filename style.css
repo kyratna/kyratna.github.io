@@ -91,7 +91,7 @@ body {
     background: #000;
 }
 
-.navbar-logo img{
+.navbar-brand img{
     height: 40px;
 }
 
@@ -245,7 +245,6 @@ body {
 }
 
 
-
 #buton:hover {
     background: #ffffff;
     color: #000;
@@ -291,7 +290,6 @@ body {
     width: 70px;
     transition: 0.35s;
 }
-
 
 
 #msg {

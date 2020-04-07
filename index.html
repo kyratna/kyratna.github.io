@@ -4,19 +4,32 @@
             Yashoratna's Portfolio
         </title>
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+        
         <link rel="stylesheet" type="text/css" href="normalize.css">
+        
         <link rel="stylesheet" type="text/css" href="style.css">
+        
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+        
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+        
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" ></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+        
+<!--        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>-->
+        
         <script src="anime.js"></script>
+        
         <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+        
         <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+        
        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
        
     
     </head>
@@ -42,8 +55,7 @@
                     <div class="res_cls">
                          <button type="button" class="btn btn-primary">
                              <a href="http://bit.ly/cv_yashoratna" target="_blank" style="color: white; a:hover {color: white;}">My Resume</a>  </button>
-                             
-                    </div>      
+                    </div>
                   
                 </div>
                     
@@ -57,22 +69,22 @@
         </section>
             
 <!--        user info section-->
-            
+
         <section id="user-info">
             <div class="nav-bar">
             
             <nav class="navbar navbar-expand-md">
                 
-                <a class="navbar-logo" href="#"><img src="img/logo.png"></a>
+                <a class="navbar-brand" href="#"><img src="img/logo.png"></a>
                 
-                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarNav">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <i class="fa fa-bars"></i>
                 </button>
                 
   <div class="collapse navbar-collapse" id="navbarNav">
     <ul class="navbar-nav ml-auto">
-      <li class="nav-item">
-        <a class="nav-link" href="#homescr">HOME</a>
+      <li class="nav-item active">
+          <a class="nav-link" href="#homescr">HOME <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="#aboutscr">ABOUT ME</a>
@@ -93,14 +105,20 @@
         <a class="nav-link" href="#conscr">CONTACT ME</a>
       </li>
     </ul>
-  </div>
+  </div>  
+                
+<script type="text/javascript">
+ jQuery( document ).ready(function() {
+    jQuery('.navbar-collapse a').click(function(){ 
+      jQuery('.navbar-collapse').css('height', '0');
+      jQuery('.navbar-collapse').removeClass('in');
+    });  
+ });
+</script>
                 
     </nav>
 </div>
         
-
-        
-
                                    <!--social icons-->
 
 <div class="social-icons">
@@ -111,8 +129,6 @@
         <a href="https://www.instagram.com/ky.ratna" target="_blank"><li><i class="fa fa-instagram"></i></li></a>
         <a href="https://www.hackerrank.com/kyratna?hr_r=1" target="_blank"><li><i class='fab fa-hackerrank'></i></li></a>
         
-    
-    
 </ul>
 </div>
 
@@ -286,8 +302,7 @@
             
 <br>
 <br>
-        
-        
+        `
 <!--   projects-->
                 <div class="row">
                     <div class="col-sm-12 col-md-12">
@@ -367,8 +382,7 @@
 <!--activities-->
 
         <div class="activities container" id="actscr">
-                    
-                           
+                        
             <div class="row">
                     <div class="col-sm-12 col-md-6">
                         <h3 class="text-center" style="font-weight: 380; margin-bottom: 30px;">Co-Curricular</h3>
