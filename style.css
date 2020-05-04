@@ -72,8 +72,13 @@ body {
     display: block;
     width: 28px;
     height: 28px;
+    transition: transform .1s;
 }
 
+.user-box ul li a:hover {
+    transform: scale(.8);
+    
+}
 
 
 .scroll-btn {
