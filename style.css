@@ -14,6 +14,7 @@ body {
     background-attachment: fixed;
 }
 
+
 .user-box {
     top: 36%;
     left: 50%;
@@ -37,6 +38,40 @@ body {
 
 .user-box p {
     color: #000;
+}
+
+/*
+.homesocial {
+    top: 67%;
+    left: 35.6%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+    align-items: center;
+}
+*/
+
+.user-box ul{
+    display: flex;
+    position:absolute;
+    align-content: center;
+/*    margin-bottom: 10px;*/
+    
+}
+
+.user-box ul li{
+    background: black;
+    list-style: none;
+    font-size: 17px;
+    margin: 7.5px;
+}
+
+.user-box ul li a{
+    display: block;
+    color: #fff;
+    padding: 5px;
+    display: block;
+    width: 28px;
+    height: 28px;
 }
 
 
